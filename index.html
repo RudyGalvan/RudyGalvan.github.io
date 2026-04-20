@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rudy Galvan — Data science & code</title>
+    <meta
+      name="description"
+      content="High school student exploring data science, statistics, and building things with code."
+    />
+    <meta property="og:title" content="Rudy Galvan — Data science & code" />
+    <meta
+      property="og:description"
+      content="High school student exploring data science, statistics, and building things with code."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="crt" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#">RG<span class="logo__blink">_</span></a>
+      <button
+        type="button"
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <p class="hero__label">Player 1</p>
+        <h1 class="hero__title">Rudy Galvan</h1>
+        <p class="hero__tagline">
+          High school student · data science · curious about patterns in the world
+          <span class="hero__cursor" aria-hidden="true"></span>
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View projects</a>
+          <a class="btn btn--ghost" href="#contact">Contact</a>
+        </div>
+      </section>
+
+      <section class="section section--about" id="about">
+        <h2 class="section__title"><span class="section__title-inner">About</span></h2>
+        <div class="panel">
+          <p>
+            I am a high school student who likes turning questions into charts, models, and
+            stories backed by evidence. I care about doing the math honestly and communicating
+            results clearly.
+          </p>
+          <p>
+            In and out of class I explore statistics, programming, and how messy real-world data
+            actually behaves. I am especially interested in visualization and using data to
+            support better decisions.
+          </p>
+          <p>
+            This site is my home base on the web — a place to share what I am learning and what I
+            build along the way.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section__title"><span class="section__title-inner">Skills</span></h2>
+        <ul class="badges" aria-label="Skills and tools">
+          <li class="badge">Python</li>
+          <li class="badge">Statistics</li>
+          <li class="badge">Pandas</li>
+          <li class="badge">Visualization</li>
+          <li class="badge">Jupyter</li>
+          <li class="badge">Data cleaning</li>
+          <li class="badge">Experiment design</li>
+          <li class="badge">Communication</li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section__title"><span class="section__title-inner">Projects</span></h2>
+        <div class="cards">
+          <article class="card">
+            <h3 class="card__title">Exploratory data story</h3>
+            <p class="card__text">
+              Notebook walkthrough: questions, plots, and what changed when the dataset was
+              filtered differently.
+            </p>
+            <div class="card__links">
+              <span class="card__link card__link--soon">GitHub (soon)</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Visualization sprint</h3>
+            <p class="card__text">
+              Small multiples and clear labels — making a messy CSV legible in under one screen of
+              charts.
+            </p>
+            <div class="card__links">
+              <span class="card__link card__link--soon">Demo (soon)</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Classroom survey analysis</h3>
+            <p class="card__text">
+              From form responses to bar charts and confidence in conclusions — practice with
+              categorical data.
+            </p>
+            <div class="card__links">
+              <span class="card__link card__link--soon">Write-up (soon)</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <h2 class="section__title"><span class="section__title-inner">Contact</span></h2>
+        <div class="panel panel--contact">
+          <p>Reach out for collaborations, feedback, or just to talk about data.</p>
+          <ul class="contact-list">
+            <li>
+              <a class="contact-link" href="mailto:hello@example.com">Email</a>
+              <span class="contact-hint">replace with your address</span>
+            </li>
+            <li>
+              <a
+                class="contact-link"
+                href="https://github.com/RudyGalvan"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with HTML &amp; CSS · <span id="year"></span> · Press <kbd>Tab</kbd> to navigate</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
